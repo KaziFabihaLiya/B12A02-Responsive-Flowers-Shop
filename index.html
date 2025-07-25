@@ -28,16 +28,17 @@
                     <div class="navbar-logo flex-1">
                         <img src="./assets/logo.png" alt>
                     </div>
-                    <div class="navbar flex flex-1 text-base inter">
-                        <div class="navbar-list">
-                            <ul class="inter flex">
-                                <li>Home</li>
-                                <li>Shop</li>
-                                <li>About us</li>
+                    <div class="navbar flex flex-1 justify-end text-base inter gap-12">
+                        <div class="navbar-list ">
+                            <ul class="inter flex gap-12 font-normal">
+                                <li><span class="font-bold">Home</span></li>
+                                <li class="gray-color">Shop</li>
+                                <li class="gray-color">About us</li>
                             </ul>
                         </div>
                         <div class="navbar-icon">
-                            <p>Cart($56)</p>
+                            
+                            <p><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</p>
                         </div>
                     </div>
                 </nav>
@@ -166,29 +167,31 @@
                     </div>
                 </section>
                 <!-- main section banner -->
-                <div class="banner-section flex mt-52.5 gap-x-15 items-center">
+                <div class="badge translate-x-90 translate-y-40 ">
+                    <img class="max-w-[286px] animate-[spin_1s_ease-in-out_infinite]" src="./assets/trusted-badge.png" alt="">
+                </div>
+                <div class="banner-section flex justify-between items-center">
                     <div class="banner-image">
-                        <img src="./assets/flower-store.png" alt>
+                        <img class="w-auto" src="./assets/flower-store.png" alt>
                     </div>
-                    <div class="banner-details">
-                        <h2 class="noto-serif font-bold text-[50px]">Flower &
-                            Plants Lover</h2>
-                        <ol class="inter font-normal gray-color list-disc">
-                            <li>Indulge your senses with the beauty and
+                    <div class="banner-details max-w-[540px]">
+                        <h2 class="noto-serif font-bold text-[50px] -translate-x-7 mb-5">Flower & Plants<br> Lover</h2>
+                        <ol class="inter font-normal text-[22px] gray-color list-disc flex flex-col gap-y-5">
+                            <li>Indulge your senses with the beauty and<br>
                                 fragrance of
-                                our fresh flower shop. From classic roses to
+                                our fresh flower shop. From classic<br> roses to
                                 exotic
-                                blooms, we offer a wide variety of fresh.</li>
-                            <li>Indulge your senses with the beauty and
+                                blooms, we offer a wide variety<br> of fresh.</li>
+                            <li>Indulge your senses with the beauty and<br>
                                 fragrance of
-                                our fresh flower shop. From classic roses to
+                                our fresh flower shop. From classic<br> roses to
                                 exotic
-                                blooms, we offer a wide variety of fresh.</li>
-                            <li>Indulge your senses with the beauty and
+                                blooms, we offer a wide variety<br> of fresh.</li>
+                            <li>Indulge your senses with the beauty and<br>
                                 fragrance of
-                                our fresh flower shop. From classic roses to
+                                our fresh flower shop. From classic<br> roses to
                                 exotic
-                                blooms, we offer a wide variety of fresh.</li>
+                                blooms, we offer a wide variety<br> of fresh.</li>
                         </ol>
                     </div>
                 </div>
@@ -206,21 +209,22 @@
             </div>
         </section>
         <!-- footer -->
-        <footer>
+        <footer class="container mx-auto mt-12.5 mb-30 flex justify-evenly gap-x-27">
             <div class="foot-left">
                 <img src="./assets/logo.png" alt>
-                <h3 class="gray-color">Indulge your senses with the beauty and
-                    fragrance of our fresh flower shop. </h3>
+                <h3 class="gray-color inter font-medium text-[22px] mt-4">Indulge your senses with the<br> beauty and fragrance of our fresh<br> flower shop. </h3>
             </div>
-            <div class="foot-mid gray-color">
-                <ul>
+            <div class="foot-mid-first gray-color inter font-normal w-fit">
+                <ul class="flex flex-col gap-y-[32px] w-fit">
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Blog</li>
                     <li>FAQ</li>
                     <li>Contact Us</li>
                 </ul>
-                <ul>
+            </div>
+            <div class="foot-mid-second gray-color inter font-normal w-fit">
+                <ul class="flex flex-col gap-y-[32px]">
                     <li>Features</li>
                     <li>Pricing</li>
                     <li>Privacy Policy</li>
@@ -228,11 +232,11 @@
                     <li>Help Center</li>
                 </ul>
             </div>
-            <div class="foot-right flex gap-[24px]">
-                <img src="./assets/icon-linkedin.png" alt>
-                <img src="./assets/icon-twitter.png" alt>
-                <img src="./assets/icon-facebook.png" alt>
-                <img src="./assets/icon-youtube.png" alt>
+            <div class="foot-right flex gap-x-[24px] justify-end">
+                <img class="h-[36px] "src="./assets/icon-linkedin.png" alt>
+                <img class="h-[36px] "src="./assets/icon-twitter.png" alt>
+                <img class="h-[36px] "src="./assets/icon-facebook.png" alt>
+                <img class="h-[36px] "src="./assets/icon-youtube.png" alt>
             </div>
         </footer>
     </body>
