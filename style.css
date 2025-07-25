@@ -1,0 +1,19 @@
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.orange{
+  color: rgb(233, 90, 8);
+}
+.gray-color{
+  color: rgba(0, 0, 0, 0.5);
+}
